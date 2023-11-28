@@ -13,9 +13,8 @@ body {
     url('https://raw.githubusercontent.com/Lea225/profile-card-component-main/947c0202a783473b502431f320480bb9c2d4f918/images/bg-pattern-top.svg'),
     url('https://raw.githubusercontent.com/Lea225/profile-card-component-main/947c0202a783473b502431f320480bb9c2d4f918/images/bg-pattern-bottom.svg'); 
     background-repeat: no-repeat;
-    background-position:
-    top left,
-    bottom right;  
+    background-size: 60%, 75%;
+    background-position: top -27rem left -15rem, bottom -44rem right -16rem;  
 }
 
 .bg-pattern-card{
