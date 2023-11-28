@@ -1,0 +1,101 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    background-size:
+    40% auto,
+    40% auto; 
+    background-image:
+    url('https://raw.githubusercontent.com/Lea225/profile-card-component-main/947c0202a783473b502431f320480bb9c2d4f918/images/bg-pattern-top.svg'),
+    url('https://raw.githubusercontent.com/Lea225/profile-card-component-main/947c0202a783473b502431f320480bb9c2d4f918/images/bg-pattern-bottom.svg'); 
+    background-repeat: no-repeat;
+    background-position:
+    top left,
+    bottom right;  
+}
+
+.bg-pattern-card{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.image-victor{
+    border-radius: 50%;
+    transform: translate(-50%, -50%); 
+    border: 5px solid hsl(0, 0%, 100%);
+    margin-left: 25%;
+}
+
+  .card{
+    font-family: "Kumbh Sans",sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    height: 75vh auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+}
+
+h1,h2,.head-p{
+    color: hsl(229, 23%, 23%);
+}
+
+.head-title,.footer{
+    display: flex;
+}
+
+.head-p{
+    align-self: center;
+    margin-left: 1.5rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.head-title{
+    font-size: 14px;
+    margin-top: -10%;
+}
+
+.head-title,.footer{
+    justify-content: center;
+}
+
+.stats{
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+  p{
+    color: hsl(0, 0%, 59%);
+  }
+
+  hr{
+    border: 1px solid hsl(0, 0%, 59%);
+  }
+
+  @media (max-width: 1440px) {
+    .card{
+        width: 30%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .card{
+        width: 40%;
+    }
+    .footer{
+        justify-content: center;
+    }
+}
+@media (max-width: 1000px) {
+    .card{
+        width: 80%;
+    }
+}
